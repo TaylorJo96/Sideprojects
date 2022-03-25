@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampgroundReservations", "CampgroundReservations\CampgroundReservations.csproj", "{65523751-42D6-4B54-BCF6-FEC5BE2DE98E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampgroundReservations.Tests", "CampgroundReservations.Tests\CampgroundReservations.Tests.csproj", "{A882191E-F025-467E-A37E-26CC4E0DE5D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65523751-42D6-4B54-BCF6-FEC5BE2DE98E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65523751-42D6-4B54-BCF6-FEC5BE2DE98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65523751-42D6-4B54-BCF6-FEC5BE2DE98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65523751-42D6-4B54-BCF6-FEC5BE2DE98E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A882191E-F025-467E-A37E-26CC4E0DE5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A882191E-F025-467E-A37E-26CC4E0DE5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A882191E-F025-467E-A37E-26CC4E0DE5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A882191E-F025-467E-A37E-26CC4E0DE5D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D45AE65-0FF5-4B53-A564-78B7468BB014}
+	EndGlobalSection
+EndGlobal

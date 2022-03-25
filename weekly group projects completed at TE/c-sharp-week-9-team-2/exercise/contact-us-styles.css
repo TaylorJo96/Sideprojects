@@ -1,0 +1,98 @@
+body > main > form {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+body > main > form > div:nth-child(1n) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2%;
+    align-items: stretch;
+    width: 33%;
+}
+#color
+{
+    align-items: stretch;
+    width: 100%;
+}
+
+body > main > form > div:nth-child(5) > input[type=submit]{
+width: 15vw;
+padding: 10px;
+border-style: none;
+border-radius: 5px;
+color:white;
+background-color: #00afef;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+
+}
+body > main > h2 { 
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    
+}
+h1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+    max-width: 50%;
+}
+#site-nav > ul {
+    justify-content: flex-end;
+    flex-grow: 2;
+    width: 50vw;
+}
+#site-nav > ul > li {
+    justify-content: center;
+}
+
+@media  screen and (max-width: 800px) {
+    header {
+        flex-wrap: wrap;
+      max-height: 31vh;
+        
+        
+    }
+    #site-nav > ul {
+      
+        width: 97vw;
+        
+        
+    }
+    body > main > form > div:nth-child(1n) {
+        width: 90vw;
+    }
+    body > main > form > div:nth-child(5) > input[type=submit]
+    {min-width: 60%}
+    ul
+    {max-height: 50%;
+    padding: 0%;}
+    #site-nav > ul > li{
+
+        margin: 2%;
+        align-items: center;
+        
+        
+    }
+    body > header > img,body > header > h1{
+        margin: 0;
+      
+        
+    }
+    main{padding: 2%;
+        margin-bottom: 1%;
+    }
+    
+}
+
+
+
+

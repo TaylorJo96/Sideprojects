@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatCards", "CatCards\CatCards.csproj", "{57C440CB-AA0C-4963-85F3-1DAF91D2AD75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57C440CB-AA0C-4963-85F3-1DAF91D2AD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C440CB-AA0C-4963-85F3-1DAF91D2AD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C440CB-AA0C-4963-85F3-1DAF91D2AD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C440CB-AA0C-4963-85F3-1DAF91D2AD75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42E39F26-714E-4395-93E2-CA4E980176EF}
+	EndGlobalSection
+EndGlobal

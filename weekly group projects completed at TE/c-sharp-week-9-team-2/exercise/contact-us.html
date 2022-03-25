@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Tech Elevator Popsicles</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="contact-us-styles.css"/>
+</head>
+<body>
+<header>
+    <img src="images/te-pops.png"/>
+    <h1> Tech Elevator Popsicles
+    </h1>
+        <nav id="site-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+</header>
+    <main>
+        <h2>Contact Us</h2>
+        <form method="POST" action="http://www.popsiclesRus.net/api/info">
+            <div>
+                <label for="name">Name: </label>
+                <input id="name" name="name" type="text">
+            </div>
+            <div>
+                <label for="referred-by">How did you hear of us?</label>
+                <select id="referred-by" name="referred-by">
+                    <option value="Popsicle Monthly">Popsicle Monthly</option>
+                    <option value="Tori Brenneison">Tori Brenneison</option>
+                    <option value="David Ferreira">David Ferreira</option>
+                    <option value="Jerry Garcia">Jerry Garcia</option>
+                </select>
+                    
+            </div>
+            <div>
+                <label for="color">What color is your favorite popsicle?</label>
+                <input id="color" cols="15" name="color" type="color">
+            </div>
+            <div>
+                <label for="comments">Please let us know any comments you have:</label>
+                <textarea id="comments" cols="40" rows="15">Enter your comments...</textarea>
+            </div>
+            <div>
+                <input type="submit"/>
+            </div>
+        </main>
+                <footer>
+                    &copy; Tech elevator
+                </footer>
+    
+</body>
+</html>
