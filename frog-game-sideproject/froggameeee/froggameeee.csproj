@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87F2BE00-0429-42F0-9579-A00886CFACA7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>froggameeee</RootNamespace>
+    <AssemblyName>froggameeee</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="health.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\longhedge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hedgetall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pondcute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\froggoLeft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\froggo_right.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-865924416-612x612 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plsssss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundpls.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prettyplease.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\froggo_right1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-major-key-the-keys-major-scale-study-hard-5adc6431e88e68.3559192215243930099526 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shrike.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shrike2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image0.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empty_heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\half_heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\full_heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\birdright.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door_real.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_0394.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_0393.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\landscape-repeated-border-vector-design-260nw-431428381.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\landscape-repeated-border-vector-design-260nw-4314283811.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clouds.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass-159804_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\181-1811260_moving-grass-png-gif.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green-grass-border-and-transparent-background-vector-25904531.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clouds2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\142-1427583_cloud-cloud-png-clip-art-transparent-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-white-single-cartoon-cloud-clipart-vector-png-image_946018.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-white-single-cartoon-cloud-clipart-vector-png-image_9460181.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\118-1189537_clouds-png-animated-cute-cartoon-cloud-png-transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canstockphoto84556167 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudtransp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frog_boy_right.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frog_boi_left.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smolCloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clouuud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled_Artwork.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Usdfasdfantitled_Artwork.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
