@@ -3973,19 +3973,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Student\\.nuget\\packages\\": {}
+    "C:\\Users\\Taylor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Student\\git\\c-sharp-capstone-module-2-team-2\\capstone\\TenmoServer\\TenmoServer.csproj",
+      "projectUniqueName": "C:\\Users\\Taylor\\git\\Sideprojects\\Capstone Projects\\capstone\\TenmoServer\\TenmoServer.csproj",
       "projectName": "TenmoServer",
-      "projectPath": "C:\\Users\\Student\\git\\c-sharp-capstone-module-2-team-2\\capstone\\TenmoServer\\TenmoServer.csproj",
-      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Student\\git\\c-sharp-capstone-module-2-team-2\\capstone\\TenmoServer\\obj\\",
+      "projectPath": "C:\\Users\\Taylor\\git\\Sideprojects\\Capstone Projects\\capstone\\TenmoServer\\TenmoServer.csproj",
+      "packagesPath": "C:\\Users\\Taylor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Taylor\\git\\Sideprojects\\Capstone Projects\\capstone\\TenmoServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Taylor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4042,7 +4042,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
