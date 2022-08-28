@@ -7,6 +7,11 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "google-fonts-webpack-plugin": "^0.4.4",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
