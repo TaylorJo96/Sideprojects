@@ -32,8 +32,14 @@
           </div>
        
         <div class="hello">
-          <h2 id="creator">meet the creator!</h2>
-          <img id="selfpsit" src="../../src/assets/taylortrans.png" />
+          
+          
+          <img id="selfpsit" src="../../src/assets/selfport.png" />
+          <img id="greenshirt" src="../../src/assets/grnshirt.png" />
+          <img id="purpleshirt" src="../../src/assets/pplshirt.png" />
+          <img id="greendress" src="../../src/assets/grndress.png" />
+          <img id="swtr" src="../../src/assets/tsweater.png" />
+
         </div>
         <div>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -74,22 +80,19 @@ export default {
     msg: String,
   },
 };
+var index = 0;
+changeFit();
+function changeFit(){
+var sweater = document.getElementById("swtr");
+
+}
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-#statBack{
-  border: 4px dashed rgba(28, 100, 141, 0.767);
-  z-index: -1;
-position:absolute;
-  height:42.7vh;
-  width:28.7vh;
-  margin-left:70px;
-}
 
-#page {
-  height: 95vh;
-}
+
 h3 {
   margin: 40px 0 0;
 }
@@ -105,18 +108,39 @@ a {
   color: #42b983;
 }
 #selfpsit {
-  height: 70vh;
-  margin-top:-50px;
+  height: 105vh;
+  margin-top:-180px;
   
+}
+#greenshirt{
+visibility: hidden;
+height:95vh;
+
+position: relative;
+    transform: translate(0px, -95.5vh);
+}
+#purpleshirt{
+  height:95vh;
+  position:relative;
+  transform: translate(0px, -191vh);
+visibility: hidden;
+}
+#greendress{
+  height: 95vh;
+  position:relative;
+  transform: translate(0px, -286.5vh);
+  visibility: hidden;
+}
+#swtr{
+  height:95vh;
+  position:relative;
+  transform:translate(0px, -382vh);
 }
 #topOfPage {
   display: flex;
 }
-#creator{
-    transform: translate(-100px, -25px);
-  font-size:30pt;
-  text-transform: capitalize;
-}
+
+
 
 @keyframes move {
   100% {
@@ -130,7 +154,7 @@ a {
   height: 100vh;
   top: 0;
   left: 0;
-  background: #fdfcfd;
+  background: #ffe0d8;
   overflow: hidden;
   z-index: -1;
 }
@@ -149,7 +173,7 @@ a {
 }
 
 .background span:nth-child(0) {
-  color: #f8e8f0;
+  color: #fcddec;
   top: 25%;
   left: 73%;
   animation-duration: 105s;
@@ -159,7 +183,7 @@ a {
   z-index: -1;
 }
 .background span:nth-child(1) {
-  color: #fde2d3;
+  color: #fcccb2;
   top: 41%;
   left: 53%;
   animation-duration: 192s;
@@ -169,7 +193,7 @@ a {
   z-index: -1;
 }
 .background span:nth-child(2) {
-  color: #f8e8f0;
+  color: #fac9e2;
   top: 38%;
   left: 70%;
   animation-duration: 308s;
@@ -179,7 +203,7 @@ a {
   z-index: -1;
 }
 .background span:nth-child(3) {
-  color: #fde2d3;
+  color: #fad0b9;
   top: 7%;
   left: 59%;
   animation-duration: 151s;
@@ -199,7 +223,7 @@ a {
   z-index: -1;
 }
 .background span:nth-child(5) {
-  color: #fcb6db;
+  color: #f7a2cf;
   top: 2%;
   left: 60%;
   animation-duration: 254s;
@@ -219,7 +243,7 @@ a {
   z-index: -1;
 }
 .background span:nth-child(7) {
-  color: #c6ddda;
+  color: #a6ddd6;
   top: 48%;
   left: 62%;
   animation-duration: 125s;
@@ -229,7 +253,7 @@ a {
   z-index: -1;
 }
 .background span:nth-child(8) {
-  color: #c6ddda;
+  color: #b5f1e9;
   top: 71%;
   left: 52%;
   animation-duration: 229s;
@@ -259,7 +283,7 @@ a {
   z-index: -1;
 }
 .background span:nth-child(11) {
-  color: #fde2d3;
+  color: #f7c3a7;
   top: 69%;
   left: 82%;
   animation-duration: 172s;
@@ -279,7 +303,7 @@ a {
   z-index: -1;
 }
 .background span:nth-child(13) {
-  color: #f8e8f0;
+  color: #fda8d3;
   top: 56%;
   left: 50%;
   animation-duration: 71s;
@@ -289,7 +313,7 @@ a {
   box-shadow: 80vmin 0 10.462454965566767vmin currentColor;
 }
 .background span:nth-child(14) {
-  color: #ccfff9;
+  color: #f2fd91;
   top: 76%;
   left: 28%;
   animation-duration: 52s;
@@ -436,12 +460,17 @@ a {
   margin-right: 20px;
 }
 #perstats {
-  width: 45vh;
+  
+  height: 55vh;
 }
 .stats {
  margin:0px;
  margin-right:-80px;
 margin-left: -40px;
-margin-top:30px;
+transform: translate(0px, -40px);
+
+}
+#topOfPage > div.hello{
+  margin-left: -5vw;
 }
 </style>
