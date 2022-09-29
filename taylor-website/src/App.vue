@@ -7,6 +7,7 @@
 </template>
 
 <style>
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -15,9 +16,7 @@
   color: #2c3e50;
 }
 
-nav {
- 
-}
+
 
 nav a {
  
@@ -27,5 +26,13 @@ nav a {
 nav a.router-link-exact-active {
   color: #6e1285;
 }
-
+body{
+  height: 100vh;
+   overflow-x: hidden;
+   margin:0px;
+}
+#app{
+  height: 100vh;
+  overflow-x: hidden;
+}
 </style>

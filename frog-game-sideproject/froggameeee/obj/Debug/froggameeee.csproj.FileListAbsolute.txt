@@ -46,3 +46,16 @@ C:\Users\Taylor\git\Sideprojects\frog-game-sideproject\froggameeee\obj\Debug\fro
 C:\Users\Taylor\git\Sideprojects\frog-game-sideproject\froggameeee\obj\Debug\froggameeee.csproj.CoreCompileInputs.cache
 C:\Users\Taylor\git\Sideprojects\frog-game-sideproject\froggameeee\obj\Debug\froggameeee.exe
 C:\Users\Taylor\git\Sideprojects\frog-game-sideproject\froggameeee\obj\Debug\froggameeee.pdb
+C:\Users\Student\git\Sideprojects\frog-game-sideproject\froggameeee\bin\Debug\froggameeee.exe.config
+C:\Users\Student\git\Sideprojects\frog-game-sideproject\froggameeee\bin\Debug\froggameeee.exe
+C:\Users\Student\git\Sideprojects\frog-game-sideproject\froggameeee\bin\Debug\froggameeee.pdb
+C:\Users\Student\git\Sideprojects\frog-game-sideproject\froggameeee\obj\Debug\froggameeee.csproj.AssemblyReference.cache
+C:\Users\Student\git\Sideprojects\frog-game-sideproject\froggameeee\obj\Debug\froggameeee.Form1.resources
+C:\Users\Student\git\Sideprojects\frog-game-sideproject\froggameeee\obj\Debug\froggameeee.Form2.resources
+C:\Users\Student\git\Sideprojects\frog-game-sideproject\froggameeee\obj\Debug\froggameeee.Form3.resources
+C:\Users\Student\git\Sideprojects\frog-game-sideproject\froggameeee\obj\Debug\froggameeee.Form4.resources
+C:\Users\Student\git\Sideprojects\frog-game-sideproject\froggameeee\obj\Debug\froggameeee.Properties.Resources.resources
+C:\Users\Student\git\Sideprojects\frog-game-sideproject\froggameeee\obj\Debug\froggameeee.csproj.GenerateResource.cache
+C:\Users\Student\git\Sideprojects\frog-game-sideproject\froggameeee\obj\Debug\froggameeee.csproj.CoreCompileInputs.cache
+C:\Users\Student\git\Sideprojects\frog-game-sideproject\froggameeee\obj\Debug\froggameeee.exe
+C:\Users\Student\git\Sideprojects\frog-game-sideproject\froggameeee\obj\Debug\froggameeee.pdb
