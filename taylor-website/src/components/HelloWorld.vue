@@ -17,6 +17,7 @@
           </div>
           <div id="sit">
             <Taylor />
+            <Info />
           </div>
         </div>
      
@@ -29,10 +30,12 @@
 
 <script>
 import Taylor from "@/components/Taylor.vue";
+import Info from "@/components/Info.vue"
 export default {
   name: "HelloWorld",
   components: {
     Taylor,
+    Info,
   },
   props: {
     msg: String,
@@ -59,7 +62,7 @@ export default {
 @import url("https://fonts.googleapis.com/css?family=Staatliches");
 #sit{
 
-  transform:translate(90px, -280px);
+  transform:translate(110px, -290px);
   
 }
 
@@ -71,8 +74,8 @@ export default {
 
 
 #perstats {
-  max-width:210px;
-  padding-top:50px;
+  max-width:250px;
+  padding-top:20px;
   transform: translate(-35px);
   display: flex;
   align-self: flex-start;
