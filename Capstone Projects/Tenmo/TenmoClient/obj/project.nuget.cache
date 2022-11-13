@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rp7rnORb2bIpHvuUsHdDjfwr97tsw5qLtQ7pClD2eiSv25XnL8qKpzYaE3G/q2Q0W40taZbR0Usv82FMAtfJTw==",
+  "dgSpecHash": "3a6cRaY5vqbShfSI9Fzyb76jseVdqxwI0KvnzjB9FWaP+ScOdB/7MRIYWCE21KJIdhFSqmoL8b+x9hheda19QA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Taylor\\git\\Sideprojects\\Capstone Projects\\capstone\\TenmoClient\\TenmoClient.csproj",
+  "projectFilePath": "C:\\Users\\Student\\git\\Sideprojects\\Capstone Projects\\Tenmo\\TenmoClient\\TenmoClient.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Taylor\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
+    "C:\\Users\\Student\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
   ],
   "logs": []
 }

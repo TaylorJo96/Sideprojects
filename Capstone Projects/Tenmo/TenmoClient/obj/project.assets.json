@@ -37,19 +37,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Taylor\\.nuget\\packages\\": {}
+    "C:\\Users\\Student\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Taylor\\git\\Sideprojects\\Capstone Projects\\capstone\\TenmoClient\\TenmoClient.csproj",
+      "projectUniqueName": "C:\\Users\\Student\\git\\Sideprojects\\Capstone Projects\\Tenmo\\TenmoClient\\TenmoClient.csproj",
       "projectName": "TenmoClient",
-      "projectPath": "C:\\Users\\Taylor\\git\\Sideprojects\\Capstone Projects\\capstone\\TenmoClient\\TenmoClient.csproj",
-      "packagesPath": "C:\\Users\\Taylor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Taylor\\git\\Sideprojects\\Capstone Projects\\capstone\\TenmoClient\\obj\\",
+      "projectPath": "C:\\Users\\Student\\git\\Sideprojects\\Capstone Projects\\Tenmo\\TenmoClient\\TenmoClient.csproj",
+      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Student\\git\\Sideprojects\\Capstone Projects\\Tenmo\\TenmoClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Taylor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -95,7 +95,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

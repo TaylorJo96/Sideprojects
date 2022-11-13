@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Taylor\\git\\Sideprojects\\Capstone Projects\\capstone\\TenmoServer\\TenmoServer.csproj": {}
+    "C:\\Users\\Student\\git\\Sideprojects\\Capstone Projects\\Tenmo\\TenmoServer\\TenmoServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Taylor\\git\\Sideprojects\\Capstone Projects\\capstone\\TenmoServer\\TenmoServer.csproj": {
+    "C:\\Users\\Student\\git\\Sideprojects\\Capstone Projects\\Tenmo\\TenmoServer\\TenmoServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Taylor\\git\\Sideprojects\\Capstone Projects\\capstone\\TenmoServer\\TenmoServer.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\git\\Sideprojects\\Capstone Projects\\Tenmo\\TenmoServer\\TenmoServer.csproj",
         "projectName": "TenmoServer",
-        "projectPath": "C:\\Users\\Taylor\\git\\Sideprojects\\Capstone Projects\\capstone\\TenmoServer\\TenmoServer.csproj",
-        "packagesPath": "C:\\Users\\Taylor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Taylor\\git\\Sideprojects\\Capstone Projects\\capstone\\TenmoServer\\obj\\",
+        "projectPath": "C:\\Users\\Student\\git\\Sideprojects\\Capstone Projects\\Tenmo\\TenmoServer\\TenmoServer.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\git\\Sideprojects\\Capstone Projects\\Tenmo\\TenmoServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Taylor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
