@@ -1,11 +1,12 @@
 <template>
   <div id="app">
+    <div>
     <div id="nav">
       <router-link to="/info" class="tab" >Info </router-link>
     
       <router-link to="/Events" class="tab" >Events </router-link>
     
-      <router-link to="/home"><img id="afa_logo" src="../src/assets/afa.png"/> </router-link>
+      <router-link to="/"><img id="afa_logo" src="../src/assets/afa.png"/> </router-link>
       <router-link to="/about" class="tab" >About </router-link>
       <router-link to="/history" class="tab" >History</router-link>
     
@@ -13,6 +14,10 @@
     <router-view/>
   <div>
  
+  </div>
+    </div>
+  <div id="footer">
+    this is a footer footer footer footer
   </div>
   </div>
 </template>
@@ -30,7 +35,9 @@
 background-color: #64aba3;
 display: flex;
 flex-direction: column;
-height: -webkit-fill-available;
+min-height: -webkit-fill-available;
+justify-content: space-between;
+
 
 
 }

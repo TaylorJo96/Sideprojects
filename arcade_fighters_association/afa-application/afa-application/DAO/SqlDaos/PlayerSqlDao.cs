@@ -51,7 +51,7 @@ namespace afa_application.DAO
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     conn.Open();
-                    SqlCommand cmd = new SqlCommand("SELECT  player_id, first_name, last_name FROM players");
+                    SqlCommand cmd = new SqlCommand("SELECT  player_id, first_name, last_name FROM players", conn);
                    
                     SqlDataReader reader = cmd.ExecuteReader();
                     while (reader.Read())

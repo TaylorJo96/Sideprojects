@@ -21,6 +21,7 @@ namespace afa_application
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+          
                 });
     }
 }
